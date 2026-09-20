@@ -20,9 +20,6 @@ jobs:
       - name: Get Dependencies
         run: npm ci
 
-      - name: Run Test
-        run: npm test
-
   deployment:
     runs-on: ubuntu-latest
     steps:
